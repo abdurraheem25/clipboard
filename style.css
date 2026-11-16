@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+    background-image: url("/clipboard-landing-page-master/images/bg-header-desktop.png");
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    
+}
+.image-icon img{
+    width:100px;
+    height:100px;
+    display:block;
+    margin: 50px 0px 20px 0px;
+}
+.text-section{
+    width:90%;
+    max-width: 500px;
+    text-align:center;
+}
+.text-section h1{
+    font-weight: 600;
+    color:hsl(210, 10%, 33%);
+    margin-bottom:15px;
+}
+.text-section p{
+    font-weight: 400;
+    color:hsl(201, 11%, 66%);
+    line-height: 1.5;
+}
+.button-download{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.button-download button{
+    padding:15px 40px;
+    border-style: none;
+    border-radius: 30px;
+    color: hsl(195, 14%, 95%);
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-download button:hover{
+    cursor:pointer;
+}
+button:nth-child(1){
+    background-color: hsl(171, 66%, 44%);
+}
+button:nth-child(2){
+    background-color: hsl(233, 100%, 69%);
+}
+.track-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.track-section h2{
+    font-weight: 600;
+    color:hsl(210, 10%, 33%);
+    margin-bottom: 15px;
+
+}
+.track-section p{
+    font-weight: 400;
+    color:hsl(201, 11%, 66%);
+    line-height: 1.5;
+    width: 90%;
+    max-width:600px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.display-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 5em;
+    margin-bottom:8em;
+}
+.display-screen img{
+    width: 100%;
+    max-width: 600px;
+    display: block;
+}
+.side-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3em;
+    max-width: 500px;
+    margin-bottom:50px;
+}
+.side-container h3{
+   font-weight: 600;
+    color:hsl(210, 10%, 33%);
+    margin-bottom: 15px;
+
+}
+.side-container p{
+    font-weight: 400;
+    color:hsl(201, 11%, 66%);
+    line-height: 1.5;
+   width: 90%;
+    max-width:400px;
+}
+.access-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5em;
+}
+.accsess-text{
+    text-align: center;
+}
+.accsess-text h2{
+    color:hsl(210, 10%, 33%) ;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.accsess-text p{
+    font-weight: 400;
+    color:hsl(201, 11%, 66%);
+    line-height: 1.5;
+    width:90%;
+    max-width: 700px;
+}
+.accsess-image img{
+   width: 90%;
+    max-width:1000px;
+    display: block; 
+    text-align: center;  
+}
+.super-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:0.5em;
+}
+.super-container h1{
+    color:hsl(210, 10%, 33%) ;
+    font-weight: 600;
+}
+.super-container p{
+    font-weight: 400;
+    color:hsl(201, 11%, 66%);
+}
+.icon-text{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 4em;
+    margin-top:30px;
+}
+.left-container,.right-container,.center-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    gap: 1em;
+}
+.icon-text p{
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5em;
+    line-height: 1.5;
+    font-weight: 400;
+    color:hsl(201, 11%, 66%);
+    word-spacing: 5px;
+
+}
+.icon-text img{
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+.icon-text h2{
+ color:hsl(210, 10%, 33%) ;
+    font-weight: 600; 
+}
+.image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6em;
+    margin-bottom: 8em;
+}
+.clipboard-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+}
+.clipboard-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+}
+.clipboard-text h2{
+    color:hsl(210, 10%, 33%) ;
+    font-weight: 600;
+}
+.clipboard-text p{
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    line-height: 1.6;
+    font-weight: 400;
+    color:hsl(201, 11%, 66%);
+}
+.buttons-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+}
+.buttons-container button{
+    padding:15px 40px;
+    border-style: none;
+    border-radius: 30px;
+    color: hsl(195, 14%, 95%);
+    font-weight: 400;
+    margin-bottom: 80px;
+
+}
+.buttons-container button:hover{
+    cursor:pointer;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: hsl(220, 18%, 97%);
+    margin-top: 50px;
+    height: 150px;
+    padding-right: 30px;
+}
+.icon-container img{
+    height: 4em;
+}
+ .faqs-container{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5em;
+ }
+
+.faqs-container p,.privacy,.install{
+    color: hsl(210, 10%, 33%);
+    font-weight: 400;
+    
+
+}
+.privacy{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5em;
+    
+
+}
+.install{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5em;
+
+}
+.i-con{
+    font-size: 2em;
+    color: hsl(210, 10%, 33%);
+}
+@media (max-width: 600px) {
+
+    .hero-section {
+        background-image: url("/clipboard-landing-page-master/images/bg-header-mobile.png");
+        padding: 0 20px;
+    }
+
+    .text-section {
+        width: 100%;
+    }
+
+    .text-section h1 {
+        font-size: 30px;
+    }
+
+    .button-download,
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .button-download button {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .track-section {
+        margin-top: 80px;
+        padding: 0 20px;
+    }
+
+    .track-section h2 {
+        max-width: 300px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .display-container {
+        flex-direction: column;
+        gap: 50px;
+        padding: 0 20px;
+    }
+
+    .display-screen img {
+        width: 100%;
+    }
+
+    .side-container {
+        text-align: center;
+        gap: 35px;
+        margin-bottom: 0;
+    }
+
+    .side-container p {
+        width: 100%;
+    }
+
+    .access-container {
+        gap: 50px;
+        padding: 0 20px;
+    }
+
+    .accsess-image img {
+        width: 100%;
+    }
+
+    .icon-text {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .icon-text p {
+        margin-bottom: 0;
+    }
+
+    .image-container {
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom: 80px;
+    }
+
+    .clipboard-container {
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .buttons-container {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .buttons-container button {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .footer-container {
+        height: auto;
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .faqs-container,
+    .privacy,
+    .install {
+        align-items: center;
+        gap: 15px;
+    }
+}

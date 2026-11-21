@@ -51,11 +51,11 @@
     border-radius: 30px;
     color: hsl(195, 14%, 95%);
     font-weight: 400;
-    margin-bottom: 80px;
 }
 .buttons {
     display: flex;
     flex-direction: column;
+    gap:16px;
 }
 
 .button-download button:hover{

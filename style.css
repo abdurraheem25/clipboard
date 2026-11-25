@@ -40,7 +40,7 @@
 }
 .button-download{
     display: flex;
-    gap:1em;
+    gap:3em;
     margin-top: 20px;
     align-items: center;
     justify-content: center;
